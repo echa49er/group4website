@@ -1,6 +1,6 @@
 /* General page styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -8,25 +8,25 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
+    background: #091a0a;
     color: #fff;
-    padding: 10px 0;
+    padding: 4px 0;
     text-align: center;
 }
 
 /* Styling for team logo image */
 .team-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 200px; /* Adjust the size as needed */
     margin-top: 10px;
 }
 
 /* Menu button styling */
 header nav {
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 header nav button {
-    background: #007BFF;
+    background: #17531b;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -36,7 +36,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #0b2a0d;
 }
 
 /* Flex container for team bios and vision sections */
@@ -66,6 +66,7 @@ header nav button:hover {
 
 h2 {
     margin: 0 0 10px;
+    text-align: center;
 }
 
 /* Initially hide bio details */
@@ -77,7 +78,7 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #17531b;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -86,5 +87,15 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #0b2a0d;
+}
+
+.bio-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
