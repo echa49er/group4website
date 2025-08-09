@@ -9,9 +9,9 @@
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>Meet The Goldrush!</h1>
     <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+    <img src="img/goldrush_logo.png" alt="Team Logo" class="team-logo">
 
     <!-- Navigation menu to switch between sections -->
     <nav>
@@ -24,10 +24,15 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+        <h2>Tamara Kuiper</h2>
+        <p>Backend Developer</p>
+        <img src="img/tamara_kuiper.jpg" alt="" width="150px">
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <div id="bio1" class="bio">
+            <p>Tamara is a backend developer with a focus on building scalable, secure, and efficient systems. I specialize in server-side logic, API design, and database architecture, and enjoy turning complex problems into clean, maintainable code..</p>
+            <p>Inspiration Moodboard:</p>
+            <img class="bio-image" src="img/moodboard_tk.jpg" alt="" width="150">
+        </div>
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
@@ -36,17 +41,22 @@
         <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
     <div class="card">
-        <h2>VJ Madapakula</h2>
-        <p>Product Manager</p>
+        <h2>Brianna Echanique</h2>
+        <p>UI/UX Designer</p>
+        <img src="img/brianna_e.jpg" alt="" width="150px">
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Vj manages the product, in terms of quality and making sure the user requirements are reached</p>
+        <div id="bio3" class="bio">
+            <p>Brianna is a UI/UX designer who loves to create fun, interactive, and functional user interfaces. Her main inpiration for getting into computer science includes cybersecurity, TouchDesigner, and nostalgic web design.</p>
+            <p>Inspiration Moodboard:</p>
+            <img class="bio-image" src="img/bri_moodboard.png" alt="" width="150">
+        </div>
     </div>
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>In The Goldrush, we seek to create a space where we bring out the best in one another whilst working on projects. We are a team of visionaries who are driven by our passions, as well as our client's satisfaction.</p>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
